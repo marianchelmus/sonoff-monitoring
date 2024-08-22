@@ -53,7 +53,7 @@ The system is containerized using Docker and uses Terraform for infrastructure d
    ```bash
    cd terraform
    terraform init
-   terraform apply --target=aws_ecr_repository.home_autiomation
+   terraform apply --target=aws_ecr_repository.home_automation
    ECR_REGISTRY=$(terraform output ecr_repository_url)
 
 4. **Build the docker image, tag it and push it to the ECR you crated with earlier**
