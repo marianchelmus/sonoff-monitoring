@@ -89,9 +89,7 @@ The system is containerized using Docker and uses Terraform for infrastructure d
    After that, you can import the grafana dashboard found in grafana/dashboard.json
 
 
-# Usage
-
-## Accessing the system
+# Accessing the system
 
 After deployment, access Grafana or InfluxDB via the exposed ports or the configured domain. 
 The specific ports or domain setup should be detailed in your Terraform or Docker Compose configuration.
